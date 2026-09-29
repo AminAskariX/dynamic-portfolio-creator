@@ -1,87 +1,61 @@
-# dynamic-portfolio-creator
-A dynamic and customizable portfolio template for developers and designers.
-# مستندات پروژه Dynamic Portfolio Creator
+# Dynamic Portfolio Creator
 
-## معرفی پروژه
-پروژه **Dynamic Portfolio Creator** یک قالب پورتفولیو پویا و قابل تنظیم است که با استفاده از تکنولوژی‌های **HTML**، **CSS** و **JavaScript** طراحی شده است. این پروژه به شما امکان می‌دهد یک وب‌سایت شخصی مدرن برای نمایش مهارت‌ها، پروژه‌ها و اطلاعات تماس خود بسازید.
+[فارسی](#فارسی) · [English](#english)
 
----
+<a id="فارسی"></a>
+## فارسی
 
-## ویژگی‌ها
-- طراحی مدرن و مینیمال
-- قابلیت دارک مود (Dark Mode)
-- بخش‌های جداگانه برای معرفی، پروژه‌ها و تماس
-- فرم تماس قابل استفاده
-- کدنویسی تمیز و قابل توسعه
+قالب سادهٔ نمونه‌کار شخصی با HTML، CSS و JavaScript برای معرفی، نمایش پروژه‌ها و بخش تماس.
 
----
+### امکانات
 
-## پیش‌نیازها
-برای استفاده یا توسعه این پروژه، به موارد زیر نیاز دارید:
-- **مرورگر وب**: برای مشاهده نتیجه نهایی
-- **ویرایشگر متن**: مانند VS Code برای ویرایش کدها
-- **ابزار توسعه وب**: (اختیاری) مانند Live Server برای مشاهده پیش‌نمایش زنده
+- صفحهٔ تک‌صفحه‌ای با بخش‌های معرفی، درباره، پروژه‌ها و تماس.
+- تغییر حالت روشن و تیره با دکمهٔ صفحه.
+- فرم تماس با بررسی فیلدهای ضروری در مرورگر.
 
----
+### اجرا و سفارشی‌سازی
 
-## ساختار پروژه
+1. مخزن را دریافت کنید: `git clone https://github.com/AminAskariX/dynamic-portfolio-creator.git`.
+2. فایل `index.html` را در مرورگر باز کنید.
+3. متن و پروژه‌ها را در `index.html`، ظاهر را در `styles.css` و رفتار را در `script.js` ویرایش کنید.
 
-```
-project-folder/
-│
-├── index.html          # فایل اصلی HTML
-├── styles.css          # استایل‌های پروژه
-└── script.js           # اسکریپت‌های جاوا اسکریپت
-```
+### محدودیت فعلی
 
----
+فرم تماس فقط پیام نمایشی نشان می‌دهد و به سرور یا ایمیل متصل نیست؛ برای دریافت پیام باید آن را به سرویس مناسب وصل کنید.
 
-## راه‌اندازی پروژه
-1. **دانلود پروژه:**
-   - پروژه را از مخزن گیت‌هاب فورک کنید یا فایل‌های آن را دانلود کنید.
+### پدیدآورنده و حقوق نشر
 
-2. **باز کردن در مرورگر:**
-   - فایل `index.html` را در مرورگر باز کنید.
+© 2025 م.امین عسکری (M. Amin Askari). [GitHub](https://github.com/AminAskariX) · [وب‌سایت](https://aminaskarix.ir)
 
-3. **ویرایش:**
-   - می‌توانید فایل‌های `styles.css` و `script.js` را برای سفارشی‌سازی و افزودن ویژگی‌های بیشتر ویرایش کنید.
+### مجوز
 
----
+این پروژه تحت مجوز MIT منتشر شده است؛ متن کامل در [LICENSE](LICENSE) آمده است. عبارت «تمام حقوق محفوظ است» جایگزین شرایط این مجوز نمی‌شود.
 
-## راهنمای فایل‌ها
+<a id="english"></a>
+## English
 
-### 1. فایل `index.html`
-این فایل ساختار اصلی وب‌سایت را تعریف می‌کند و شامل بخش‌های زیر است:
-- **Header:** شامل منو و دکمه تغییر حالت دارک مود.
-- **Hero Section:** معرفی کوتاه و خوشامدگویی.
-- **About Section:** توضیحات درباره شخص.
-- **Projects Section:** لیست پروژه‌های انجام‌شده.
-- **Contact Section:** فرم تماس برای ارتباط با بازدیدکنندگان.
+A small personal portfolio template built with HTML, CSS, and JavaScript.
 
-### 2. فایل `styles.css`
-این فایل شامل استایل‌های مربوط به طراحی صفحات وب‌سایت است. از تکنیک‌های زیر استفاده شده است:
-- استفاده از Flexbox و CSS Grid برای طراحی ریسپانسیو
-- افکت‌های Hover برای تعامل بهتر
-- انیمیشن‌های CSS برای زیبایی بیشتر
+### Features
 
-### 3. فایل `script.js`
-این فایل رفتارهای پویا مانند تغییر حالت دارک مود و اعتبارسنجی فرم تماس را مدیریت می‌کند.
+- Single-page About, Projects, and Contact sections.
+- Light/dark toggle.
+- Browser-side required-field check for the contact form.
 
----
+### Run and customize
 
-## توسعه بیشتر
-- اضافه کردن انیمیشن‌های جذاب‌تر با CSS3.
-- اتصال فرم تماس به یک سرویس Backend.
-- افزودن صفحه‌های اضافی مانند وبلاگ یا نمونه‌کارهای خاص.
+1. Clone: `git clone https://github.com/AminAskariX/dynamic-portfolio-creator.git`.
+2. Open `index.html` in a browser.
+3. Edit copy and sample projects in `index.html`, styles in `styles.css`, and interactions in `script.js`.
 
----
+### Current limitation
 
-## امضا و حقوق
-این پروژه توسط **M.Amin Askari** طراحی و توسعه داده شده است.
+The contact form displays a confirmation but does not deliver messages. Connect a backend or form service before using it for real inquiries.
 
-دامنه‌های مرتبط:
-- [Metacortex.ir](https://Metacortex.ir)
-- [Microservice.ir](https://Microservice.ir)
+### Author and copyright
 
-تمامی حقوق محفوظ است.
+Copyright © 2025 M. Amin Askari (م.امین عسکری). [GitHub](https://github.com/AminAskariX) · [Website](https://aminaskarix.ir)
 
+### License
+
+This project is licensed under MIT. See [LICENSE](LICENSE) for the full terms.
