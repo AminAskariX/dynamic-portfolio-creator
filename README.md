@@ -11,7 +11,7 @@
 
 - صفحهٔ تک‌صفحه‌ای با بخش‌های معرفی، درباره، پروژه‌ها و تماس.
 - تغییر حالت روشن و تیره با دکمهٔ صفحه.
-- فرم تماس با بررسی فیلدهای ضروری در مرورگر.
+- فرم تماس با اعتبارسنجی فیلدها و باز کردن پیش‌نویس در برنامهٔ ایمیل کاربر.
 
 ### 🛠️ اجرا و سفارشی‌سازی
 
@@ -21,7 +21,7 @@
 
 ### ⚠️ محدودیت فعلی
 
-فرم تماس فقط پیام نمایشی نشان می‌دهد و به سرور یا ایمیل متصل نیست؛ برای دریافت پیام باید آن را به سرویس مناسب وصل کنید.
+برای فعال‌سازی، ایمیل مقصد را در ویژگی `data-contact-email` فرمِ `index.html` قرار دهید. فرم پیش‌نویس ایمیل را باز می‌کند؛ ارسال نهایی بر عهدهٔ کاربر است. بدون ایمیل مقصد، خطای روشن نشان داده می‌شود. برای ارسال مستقیم از سایت به backend نیاز است.
 
 ### 💡 این پروژه به چه کار می‌آید؟
 
@@ -35,7 +35,7 @@
 | `styles.css` | چیدمان، رنگ و حالت تیره |
 | `script.js` | تغییر پوسته و رفتار فرم |
 
-> 🔎 این قالب بدون مرحلهٔ build اجرا می‌شود؛ اتصال فرم به مقصد واقعی، گام بعدی برای استفادهٔ عمومی است.
+> 🔎 این قالب بدون مرحلهٔ build اجرا می‌شود؛ ایمیل مقصد باید پیش از انتشار تنظیم شود.
 
 ### 👤 پدیدآورنده و حقوق نشر
 
@@ -54,7 +54,7 @@ A small personal portfolio template built with HTML, CSS, and JavaScript.
 
 - Single-page About, Projects, and Contact sections.
 - Light/dark toggle.
-- Browser-side required-field check for the contact form.
+- Browser-side validation and an email draft for the contact form.
 
 ### 🛠️ Run and customize
 
@@ -64,7 +64,7 @@ A small personal portfolio template built with HTML, CSS, and JavaScript.
 
 ### ⚠️ Current limitation
 
-The contact form displays a confirmation but does not deliver messages. Connect a backend or form service before using it for real inquiries.
+Set the recipient in the form's `data-contact-email` attribute in `index.html`. The form opens a draft in the visitor's email app; the visitor must send it. An unset recipient shows an explicit error. Direct site-side delivery requires a backend.
 
 ### 💡 Where it fits
 
@@ -78,7 +78,7 @@ Use this small codebase to prototype a personal site, learn front-end customizat
 | `styles.css` | Layout, colors, and dark mode |
 | `script.js` | Theme toggle and form interaction |
 
-> 🔎 There is no build step. Connect the form to a real destination before publishing it as a contact channel.
+> 🔎 There is no build step. Configure the recipient before publishing it as a contact channel.
 
 ### 👤 Author and copyright
 
